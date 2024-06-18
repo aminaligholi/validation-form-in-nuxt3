@@ -5,7 +5,7 @@
 	>
 		<h1 class="title-login">پیشخوان24</h1>
 		<span class="dis-input"> شماره تلفن خود را وارد کنید.</span>
-		<base-form-input-wrapper-b
+		<base-form-input-wrapper
 			v-model="loginSt._phoneNumber"
 			v-model:is-valid="isValid"
 			label="شماره تلفن همراه"
